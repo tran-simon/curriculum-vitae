@@ -55,16 +55,31 @@
 %     Personal Data
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Essentials
+\import{\sectiondir}{lang}
 \import{\sectiondir}{info}
 %\quote{}
 
+\newif\ifen
+\newif\iffr
+
+\newcommand{\en}[1]{\ifen#1\fi}
+\newcommand{\fr}[1]{\iffr#1\fi}
+
+\newboolean{fouf}
+\setboolean{fouf}{true}
+
+
+%\entrue
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Content
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Make a footer for CV with three arguments(<left>, <center>, <right>)
 \makecvfooter
-  {Ce curriculum vitae a été construit avec LaTex. Le code source est disponible ici: \url{https://github.com/tran-simon/curriculum-vitae}}
+  {
+  \en{This curriculum vitae was made with LaTex. The source code is available here: \url{https://github.com/tran-simon/curriculum-vitae}}
+  \fr{Ce curriculum vitae a été construit avec LaTex. Le code source est disponible ici: \url{https://github.com/tran-simon/curriculum-vitae}}
+  }
   {}
   {\thepage}
  
@@ -77,8 +92,8 @@
 \import{\sectiondir}{sommaire.tex}
 \import{\sectiondir}{education.tex}
 \import{\sectiondir}{experience.tex}
-\import{\sectiondir}{experience-complementaire.tex}
 \import{\sectiondir}{projets.tex}
+\import{\sectiondir}{experience-complementaire.tex}
 \import{\sectiondir}{connaissances.tex}
 
 \end{document}
