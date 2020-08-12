@@ -13,7 +13,13 @@ You can [install TeX from upstream](http://tex.stackexchange.com/q/1092) (recomm
 
 ### Usage
 
+Fill in the "info" file
 
 ```bash
 $ make
 
+# French
+
+```bash
+
+$ make french
