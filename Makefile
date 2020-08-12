@@ -11,7 +11,7 @@ french: init
 
 
 init:
-	cp -n info resume/info.tex
+	[ ! -f "resume/info.tex" ] && cp -n info resume/info.tex ; echo "Copied info.tex"
 
 clean:
 	 rm resume/info.tex resume/lang.tex

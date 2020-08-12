@@ -5,3 +5,6 @@
 resume.pdf
 *.dvi
 .idea/
+
+resume/info.tex
+resume/lang.tex
