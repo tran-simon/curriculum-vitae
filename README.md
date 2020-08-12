@@ -1,8 +1,6 @@
-My CV made using the Awesome CV template
+## [Example.pdf](EXAMPLE.pdf)
 
 
-
-[**Awesome CV**](https://github.com/posquit0/Awesome-CV) is LaTeX template for a **CV(Curriculum Vitae)** or **resume** or **cover letter** inspired by [Fancy CV](https://www.sharelatex.com/templates/cv-or-resume/fancy-cv).
 
 
 ## How to Use
@@ -18,8 +16,12 @@ Fill in the "info" file
 ```bash
 $ make
 
+```
 # French
 
 ```bash
 
 $ make french
+```
+
+[**Awesome CV**](https://github.com/posquit0/Awesome-CV) is LaTeX template for a **CV(Curriculum Vitae)** or **resume** or **cover letter** inspired by [Fancy CV](https://www.sharelatex.com/templates/cv-or-resume/fancy-cv).
