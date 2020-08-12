@@ -59,16 +59,6 @@
 \import{\sectiondir}{info}
 %\quote{}
 
-\newif\ifen
-\newif\iffr
-
-\newcommand{\en}[1]{\ifen#1\fi}
-\newcommand{\fr}[1]{\iffr#1\fi}
-
-\newboolean{fouf}
-\setboolean{fouf}{true}
-
-
 %\entrue
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -77,12 +67,11 @@
 %%% Make a footer for CV with three arguments(<left>, <center>, <right>)
 \makecvfooter
   {
-  \en{This curriculum vitae was made with LaTex. The source code is available here: \url{https://github.com/tran-simon/curriculum-vitae}}
-  \fr{Ce curriculum vitae a été construit avec LaTex. Le code source est disponible ici: \url{https://github.com/tran-simon/curriculum-vitae}}
+  \lang{This curriculum vitae was made with LaTex. The source code is available here: \url{https://github.com/tran-simon/curriculum-vitae}}{Ce curriculum vitae a été construit avec LaTex. Le code source est disponible ici: \url{https://github.com/tran-simon/curriculum-vitae}}
   }
   {}
   {\thepage}
- 
+
 
 \begin{document}
 %%% Make a header for CV with personal data

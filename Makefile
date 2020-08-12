@@ -6,7 +6,7 @@ english: init
 	for f in *.tex; do xelatex $$f; done
 
 french: init
-	cp lang_en resume/lang.tex ; \
+	cp lang_fr resume/lang.tex ; \
     for f in *.tex; do xelatex $$f; done
 
 
