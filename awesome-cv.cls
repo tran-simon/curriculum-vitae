@@ -440,7 +440,7 @@
               \setbool{istart}{false} 
             }
             {\@headersocialsep}
-          \href{https://github.com/\@github}{\faGithubSquare\ \@github}
+          \href{\@github}{\faGithubSquare\ \@github}
         }
       \ifthenelse{\isundefined{\@stackoverflowid}}
         {}
@@ -460,7 +460,7 @@
               \setbool{istart}{false} 
             }
             {\@headersocialsep}
-          \href{https://www.linkedin.com/in/\@linkedin}{\faLinkedinSquare\ \@linkedin}
+          \href{\@linkedin}{\faLinkedinSquare\ \@linkedin}
         }
       \ifthenelse{\isundefined{\@twitter}}
         {}
