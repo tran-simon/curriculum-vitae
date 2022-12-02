@@ -1,4 +1,4 @@
-## [Final Result: TRAN_SIMON_2020.pdf](example.pdf)
+## Demo: https://tran-simon.github.io/curriculum-vitae/
 
 
 
