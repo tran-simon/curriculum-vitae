@@ -11,17 +11,9 @@ You can [install TeX from upstream](http://tex.stackexchange.com/q/1092) (recomm
 
 ### Usage
 
-Fill in the "info" file
-
 ```bash
-$ make
-
-```
-# French
-
-```bash
-
-$ make french
+# Use -i option for interactive mode (will prompt for the phone number)
+./build.sh -i
 ```
 
 [**Awesome CV**](https://github.com/posquit0/Awesome-CV) is LaTeX template for a **CV(Curriculum Vitae)** or **resume** or **cover letter** inspired by [Fancy CV](https://www.sharelatex.com/templates/cv-or-resume/fancy-cv).
