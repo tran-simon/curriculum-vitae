@@ -1,7 +1,7 @@
 %-------------------------
 % Resume in Latex
-% Author : Jake Gutierrez
-% Based off of: https://github.com/sb2nov/resume
+% Author : Simon Tran
+% Based off of: https://github.com/jakegut/resume
 % License : MIT
 %------------------------
 
@@ -19,6 +19,8 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \input{glyphtounicode}
+
+\usepackage[fixed]{fontawesome5}
 
 
 %----------FONT OPTIONS----------
@@ -83,10 +85,11 @@
   \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeProjectHeading}[2]{
+\newcommand{\resumeProjectHeading}[3]{
   \item
   \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
     \small#1 & #2 \\
+    \textit{\small#3} \\
   \end{tabular*}\vspace{-7pt}
 }
 
@@ -98,6 +101,9 @@
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\newcommand{\link}[1]{\emph{\underline{\url{#1}}}}
+\newcommand{\github}[1]{\small{\emph{\href{https://#1}{\faGithubSquare \underline{#1}}}}}
 
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -112,104 +118,170 @@
 % \end{tabular*}
 
 \begin{center}
-\textbf{\Huge \scshape Jake Ryan} \\ \vspace{1pt}
-\small 123-456-7890 $|$ \href{mailto:x@x.com}{\underline{jake@su.edu}} $|$
-\href{https://linkedin.com/in/...}{\underline{linkedin.com/in/jake}} $|$
-\href{https://github.com/...}{\underline{github.com/jake}}
+\textbf{\Huge \scshape Simon Tran} \\ \vspace{1pt}
+\small \faPhone \href{tel:\phone}{\phone} $|$ \href{mailto:transimon99@gmail.com}{\faEnvelope \emph{\underline{transimon99@gmail.com}}} $|$
+\href{https://linkedin.com/in/transimon99}{\faLinkedin \emph{\underline{linkedin.com/in/transimon99}}} $|$
+\href{https://github.com/tran-simon}{\faGithubSquare\ \emph{\underline{github.com/tran-simon}}}
 \end{center}
 
 
 %-----------EDUCATION-----------
-\section{Education}
+\section{\lang{Education}{Éducation}}
 \resumeSubHeadingListStart
 \resumeSubheading
-{Southwestern University}{Georgetown, TX}
-{Bachelor of Arts in Computer Science, Minor in Business}{Aug. 2018 -- May 2021}
-\resumeSubheading
-{Blinn College}{Bryan, TX}
-{Associate's in Liberal Arts}{Aug. 2014 -- May 2018}
+{École Polytechnique de Montréal}{Montréal, Qc}
+{\lang{Baccalaureate in Computer Engineering (fifth year ongoing)}{Baccalauréat en Génie Informatique (en cours, cinquième année)}}{\lang{August}{Août} 2018 -- \lang{May}{Mai} 2023}
+\resumeItemListStart
+\resumeItem{\lang{Computer Security and Mobility Concentration}{Concentration Sécurité et Mobilité Informatique}}
+\resumeItemListEnd
 \resumeSubHeadingListEnd
 
 
 %-----------EXPERIENCE-----------
-\section{Experience}
+\section{\lang{Experience}{Expérience}}
 \resumeSubHeadingListStart
 
 \resumeSubheading
-{Undergraduate Research Assistant}{June 2020 -- Present}
-{Texas A\&M University}{College Station, TX}
+{\lang{Software Developer Intern}{Développeur Logiciel Stagiaire}}{\lang{May 2022 -- August 2022}{Mai 2022 -- Août 2022}}
+{Amazon}{Toronto, On}
 \resumeItemListStart
-\resumeItem{Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems}
-\resumeItem{Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data}
-\resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
-\resumeItemListEnd
-
-% -----------Multiple Positions Heading-----------
-%    \resumeSubSubheading
-%     {Software Engineer I}{Oct 2014 - Sep 2016}
-%     \resumeItemListStart
-%        \resumeItem{Apache Beam}
-%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
-%     \resumeItemListEnd
-%    \resumeSubHeadingListEnd
-%-------------------------------------------
-
-\resumeSubheading
-{Information Technology Support Specialist}{Sep. 2018 -- Present}
-{Southwestern University}{Georgetown, TX}
-\resumeItemListStart
-\resumeItem{Communicate with managers to set up campus computers used on campus}
-\resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
-\resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
+\resumeItem{\lang{Researched, designed and implemented a new feature for Amazon's customer service web application}{Recherché, conçu et implémenté une nouvelle fonctionnalité dans une application web pour une équipe de service client d'Amazon}}
+\resumeItem{\lang{Created a design document explaining the different requirements and the steps to complete the project}{Créé un document de conception expliquant les différents requis ainsi que les étapes à accomplir pour la complétion du projet}}
+\resumeItem{\lang{Designed a GraphQL schema}{Conçu un schéma GraphQL}}
+\resumeItem{\lang{Implemented the backend in Java using proprietary Amazon frameworks and tools}{Implémenté le backend en Java en utilisant des outils propriétaires à Amazon}}
+\resumeItem{\lang{Modified the frontend to add the new feature in Typescript using React}{Modifié le frontend pour ajouter la nouvelle fonctionnalité en utilisant Typescript et React}}
 \resumeItemListEnd
 
 \resumeSubheading
-{Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
-{Southwestern University}{Georgetown, TX}
+{\lang{Software Developer Intern}{Développeur Logiciel Stagiaire}}{\lang{January 2022 -- April 2022}{Janvier 2022 -- Avril 2022}}
+{Google}{\lang{Remote}{À distance}}
 \resumeItemListStart
-\resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
-\resumeItem{Developed a game in Java to test the generated dungeons}
-\resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
-\resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
-\resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
-\resumeItem{Presented virtually to the World Conference on Computational Intelligence}
+\resumeItem{\lang{Contributed to Fuchsia, Google's open-source operating system, with the Component Framework team. Worked on the "Structured Configuration" Fuchsia project}{Contribué à "Fuchsia", un système d'exploitation à source ouverte de Google, avec l'équipe "Component Framework", sur le projet "Structured Configuration"}}
+\resumeItem{\lang{Learned Rust and used C++}{J'ai appris le Rust et utilisé le C++}}
+\resumeItem{\lang{Developed "ffx plugins" in Rust, command line tools used to debug Fuchsia components}{J'ai développé des plugins "ffx" en Rust, des outils en ligne de commande utiles pour déverminer des composantes de Fuchsia}}
+\resumeItem{\lang{Code review using Gerrit}{Revue de code avec Gerrit}}
+\resumeItemListEnd
+{\github{www.github.com/tran-simon/fuchsia}}
+
+\resumeSubheading
+{\lang{Fullstack Lead Developer}{Développeur Principal Fullstack}}{\lang{September 2020 -- January 2022}{Septembre 2020 -- Janvier 2022}}
+{Vélocité Conseil}{Montréal, Qc}
+\resumeItemListStart
+\resumeItem{\lang{Lead developer of a React app using Typescript and Firebase}{Développeur principal d'une application React avec Typescript et Firebase}}
+\resumeItem{\lang{Responsible for key architectural and technological decisions}{Responsable de plusieurs décisions architecturales et technologiques clefs}}
+\resumeItem{\lang{Designed parts of the UI/UX using Material-UI}{Conception d'une partie de l'interface utilisateur et de l'expérience utilisateur avec Material-UI}}
+\resumeItem{\lang{Responsible for structuring the database in Firebase Realtime Database and Firebase Storage}{Responsable de la structure de la base de données dans Firebase Realtime Database et Firebase Storage}}
+\resumeItem{\lang{In charge of application security and user data privacy}{En charge de la sécurité de l'application et de la protection des données des utilisateurs}}
+\resumeItemListEnd
+
+\resumeSubheading
+{\lang{Intern Developer, Digital Studio}{Développeur Stagiaire, Studio Numérique}}{\lang{May 2020 -- August 2020}{Mai 2020 -- Août 2020}}
+{\lang{National Bank of Canada}{Banque Nationale du Canada}}{Montréal, Qc}
+\resumeItemListStart
+\resumeItem{\lang{Backend (Java), frontend (React, Javascript, html/css) and mobile development (React Native)}{Développement backend (Java), frontend (React, Javascript, html/css) et mobile (React Native)}}
+\resumeItem{\lang{Mobile development using React Native}{Développement mobile avec React Native}}
+\resumeItemListEnd
+
+\resumeSubheading
+{\lang{Intern Developer, Wealth Management}{Développeur Stagiaire, Gestion de Patrimoine}}{\lang{May 2019 -- May 2020}{Mai 2019 -- Mai 2020}}
+{\lang{National Bank of Canada}{Banque Nationale du Canada}}{Montréal, Qc}
+\resumeItemListStart
+\resumeItem{\lang{Backend development in Java using Spring, Springboot, Apache CXF, Swagger, JUnit, Mockito}{Développement backend en Java à l'aide de Spring, SpringBoot, Apache CXF, Swagger, JUnit, Mockito}}
+\resumeItem{\lang{Frontend development with React, Javascript, html/css}{Développement FrontEnd avec React, Javascript, html/css}}
+\resumeItemListEnd
+
+\resumeSubheading
+{\lang{Intern Developer, Banking Transaction Assets}{Développeur Stagiaire, Actifs Transactionnels Bancaires}}{\lang{July 2018 -- August 2018}{Juillet 2018 -- Août 2018}}
+{\lang{National Bank of Canada}{Banque Nationale du Canada}}{Montréal, Qc}
+\resumeItemListStart
+\item {\lang{COBOL development}{Développement en COBOL}}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
 
 
 %-----------PROJECTS-----------
-\section{Projects}
+\section{\lang{Projects}{Projets}}
 \resumeSubHeadingListStart
 \resumeProjectHeading
-{\textbf{Gitlytics} $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2020 -- Present}
+{\textbf{Jami-Web} $|$ \emph{React, Typescript, Express, WebRTC, Swig, Docker}}{\lang{Fall 2022}{Automne 2022}}
+{\lang{Final project at Polytechnique in association with Savoir-faire Linux}{Projet final à Polytechnique en association avec Savoir-faire Linux}}
 \resumeItemListStart
-\resumeItem{Developed a full-stack web application using with Flask serving a REST API with React as the frontend}
-\resumeItem{Implemented GitHub OAuth to get data from user’s repositories}
-\resumeItem{Visualized GitHub data to show collaboration}
-\resumeItem{Used Celery and Redis for asynchronous tasks}
+\resumeItem{\lang{Creation of the web version of Jami: An open-source distributed video conference application}{Création de la version web de l'application libre distribuée de vidéo conférence Jami}}
+\resumeItem{\lang{Frontend in Typescript with React}{Frontend en Typescript avec React}}
+\resumeItem{\lang{Implementation of WebRTC for peer-to-peer audiovisual communication}{Implémentation de WebRTC pour la communication audiovisuelle pair-à-pair}}
+\resumeItem{\lang{Backend with Express.js in Typescript. Authentication management, REST API and WebSocket connection with the client}{Backend en Express.js avec Typescript. Gestion de l'authentification, API REST et connexion avec le client par WebSocket}}
+\resumeItem{\lang{CI using Jenkins}{Intégration continue (CI) avec Jenkins}}
+\resumeItem{\lang{Code review using Gerrit}{Revue de code avec Gerrit}}
 \resumeItemListEnd
+{\github{www.github.com/tran-simon/jami-web}}
+
 \resumeProjectHeading
-{\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
+{\textbf{Babel Reader} $|$ \emph{React, Firebase, GitHub Actions}}{2020}
+{\lang{Ebook reader app in React with easy one click translations}{Application en React permettant de lire des livres électroniques dans plusieurs langues}}
 \resumeItemListStart
-\resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
-\resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
-\resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
-\resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+\resumeItem{\lang{Firebase for the hosting and the storage of user data}{Firebase pour l'hébergement et les donnés des utilisateurs}}
+\resumeItem{\lang{Continuous integration and deployment using GitHub Actions}{Intégration continue et déploiement continue avec les GitHub Actions}}
+\resumeItem{\lang{Demo}{Démo}: \link{https://babel-reader-web.web.app/}}
 \resumeItemListEnd
+{\github{www.github.com/Babel-Reader/babel-reader-web}}
+
+\resumeProjectHeading
+{\textbf{\lang{Crazyflie Drone Exploration}{Drones Explorateurs Crazyflies}} $|$ \emph{C, Python, Flask, React, Typescript, Firebase}}{\lang{Winter 2021}{Hiver 2021}}
+{\lang{Third year of university final project}{Projet intégrateur de troisième année d'université}}
+\resumeItemListStart
+\resumeItem{\lang{Development of an artificial intelligence for a Crazyflie drone in C}{Programmation de l'intelligence artificielle d'un drone Crazyflie en C}}
+\resumeItem{\lang{Base station server in python to communicate with the robots}{Serveur station au sol en python pour la communication avec les robots}}
+\resumeItem{\lang{Web UI in React and Typescript. Usage of Firebase Realtime Database}{Interface web en React à l'aide de Typescript. Utilisation de Firebase RealtimeDatabase}}
+\resumeItem{\lang{Frontend deployed on Firebase}{Interface web déployée sur Firebase}: \link{https://inf3995-100.web.app/}}
+\resumeItemListEnd
+{\github{www.github.com/tran-simon/inf3995-main}}
+
+\resumeProjectHeading
+{\textbf{Polydessin} $|$ \emph{Angular, Typescript, Node, Express, Bitbucket pipelines, Firebase hosting}}{\lang{Winter 2020}{Hiver 2020}}
+{{\lang{Second Year of university final project }{Projet intégrateur de deuxième année d'université}}}
+\resumeItemListStart
+\resumeItem{\lang{Creation of a webapp in Typescript using Angular}{Création d'une webapp en Typescript à l'aide d'Angular}}
+\resumeItem{\lang{Backend created using Node and Express}{Création d'un backend avec Node et Express}}
+\resumeItem{\lang{Continuous integration and deployment using Bitbucket pipelines}{Intégration continue et déploiement continue avec les pipelines Bitbucket}}
+\resumeItem{\lang{Demo version deployed using Firebase}{Déploiement de la version finale à l'aide de Firebase}: \link{https://log2990-104.web.app/}}
+\resumeItemListEnd
+{\github{www.github.com/tran-simon/LOG2990-104}}
+
+\resumeProjectHeading
+{\textbf{Math by Heart} $|$ \emph{Java, Android, MathJax}}{2017}
+{\lang{Personnal project of an android open-source app to ease the learning of math formulas}{Application Android open-source pour l'apprentissage de formules mathématiques}}
+\resumeItemListStart
+\resumeItem{\lang{Usage of Android Studio and the MathJax library}{Utilisation d'Android Studio et de la librairie MathJax (LaTeX) pour afficher les formules mathématiques}}
+\resumeItemListEnd
+{\github{www.github.com/tran-simon/MathByHeart}}
+
+\resumeProjectHeading
+{\textbf{\lang{The Mass Spectrometer}{Le spectromètre de masse}} $|$ \emph{Java, Swing}}{2018}
+{\lang{End of CEGEP project: Scientific application in Java to simulate a mass spectrometer}{Projet Intégrateur de fin de CÉGEP: Application scientifique en Java pour simuler un spectromètre de masse}}
+\resumeItemListStart
+\resumeItem{\lang{Simulation a mass spectrometer, a cyclotron and the behavior of particles under the effect of electromagnetic fields}{Simulation d'un spectromètre de masse, d'un cyclotron et du comportement des particules sous l'effet de divers champs électromagnétiques}}
+\resumeItem{\lang{User interface using Java Swing}{Interface usager avec Java Swing}}
+\resumeItemListEnd
+{\github{www.github.com/tran-simon/Spectrometre}}
+
 \resumeSubHeadingListEnd
 
 
 
 %
 %-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
+\section{\lang{Technical Skills}{Habiletés techniques}}
 \begin{itemize}[leftmargin=0.15in, label={}]
 \small{\item{
-\textbf{Languages}{: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R} \\
-\textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
-\textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
-\textbf{Libraries}{: pandas, NumPy, Matplotlib}
+\textbf{Languages}{: Javascript, Typescript, Java/Kotlin, Rust, Python, C, C++, HTML/CSS} \\
+\textbf{Frameworks}{: React, Angular, Node.js, Express, Flask, Material-UI, Spring/Spring Boot, React Native} \\
+\textbf{\lang{Cloud Technologies}{Technologies Infonuagiques}}{: AWS, Google Cloud Platform, Firebas, Azure, Docker, docker-compose} \\
+\textbf{\lang{Mobile Development}{Développement mobile}}{: iOS/Android, React Native, Java/Kotlin} \\
+\textbf{\lang{Operating System Development}{Développement de systèmes d'exploitation}}{: Fuchsia (Rust, C++)} \\
+\textbf{CI/CD}{: Jenkins, GitHub Actions, Bitbucket Pipeline, GitLab Pipelines} \\
+\textbf{\lang{Miscellaneous}{Divers}}{: Git, GitHub/Gitlab/Bitbucket/Gerrit, Jira/Trello, Confluence, Windows, macOS, Linux (Arch)} \\
+\textbf{\lang{Languages}{Langues}}{: \lang{French, English, Spanish (Beginner)}{Français, Anglais, Espagnol (Débutant)}}
 }}
 \end{itemize}
 

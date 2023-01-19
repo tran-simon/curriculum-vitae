@@ -1,5 +1,6 @@
 ## Demo: https://tran-simon.github.io/resume.pdf
 
+Inspired by https://github.com/jakegut/resume
 
 
 
