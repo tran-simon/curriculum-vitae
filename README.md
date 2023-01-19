@@ -1,4 +1,4 @@
-## Demo: https://tran-simon.github.io/curriculum-vitae/
+## Demo: https://tran-simon.github.io/resume.pdf
 
 
 
