@@ -14,16 +14,12 @@ while getopts "i" flag; do
   esac
 done
 
-echo adsf
-
 PHONE="---"
 
 if [ -n "$interactive" ]; then
   printf "Phone number? "
   read -r PHONE
 fi
-
-echo $PHONE
 
 build() {
   language=$1
