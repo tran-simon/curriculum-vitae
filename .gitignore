@@ -1,10 +1,6 @@
-*.log
-*.out
-*.gz
-*.aux
-resume.pdf
-*.dvi
+# IntelliJ
 .idea/
+*.iml
 
-resume/info.tex
-resume/lang.tex
+node_modules/
+

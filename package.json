@@ -1,0 +1,14 @@
+{
+  "name": "curriculum-vitae",
+  "version": "1.0.0",
+  "description": "Resume of Simon Tran",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tran-simon/curriculum-vitae.git"
+  },
+  "license": "ISC",
+  "author": "Simon Tran",
+  "dependencies": {
+    "resume-cli": "^3.0.8"
+  }
+}
