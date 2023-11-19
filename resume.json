@@ -10,30 +10,30 @@
     "summary": "",
     "profiles": [
       {
-        "network": "LinkedIn",
+        "network": "linkedin",
         "username": "transimon99",
-        "url": "https://www.linkedin.com/in/transimon99/"
+        "url": "https://www.linkedin.com/in/transimon99"
       },
       {
-        "network": "GitHub",
+        "network": "github",
         "username": "tran-simon",
-        "url": "https://github.com/tran-simon"
+        "url": "https://www.github.com/tran-simon"
       }
     ]
   },
   "work": [
     {
       "name": "Ora Medical",
-      "position": "Full-stack Developer",
+      "position": "Lead Full-stack Developer",
       "startDate": "2023-05-29",
-      "summary": ",",
+      "summary": "React, React Native, TypeScript, Kotlin, Java, GraphQL, Realm, Atlas App Services",
       "highlights": [
-        "Developed a Web platform in React used by medical professionals for remote monitoring of patients with walking disabilities. The platform enhances patient care by enabling personalized treatment plans and timely interventions, while requiring fewer resources",
+        "Developed a Web platform in **React** used by medical professionals for remote monitoring of patients with walking disabilities. The platform enhances patient care by enabling personalized treatment plans and timely interventions, while requiring fewer resources",
         "Developed and maintained robust software solutions for medical applications, following standard operating procedures and complying with various regulatory systems",
-        "Worked on a mobile application in React Native used by the patients. The app communicates with a MetaWear sensor worn by the individual, collecting a wide range of data related to their walking patterns",
-        "Wrote custom React Native modules in Kotlin for the Android version to properly initialize the MetaWear device",
-        "Contributed to MbientLab’s Android MetaWear SDK (Java) to add the step counter and activity detection functionnalities to MetaWear devices using the BMI270 sensor",
-        "Designed a database using MongoDB Atlas App Services. Used GraphQL for queries on the Web platform and MongoDB Realm for the local database on the mobile application"
+        "Worked on a mobile application in **React Native** used by the patients. The app communicates with a MetaWear sensor worn by the individual, collecting a wide range of data related to their walking patterns",
+        "Wrote custom **React Native** modules in **Kotlin** for the **Android** version to properly initialize the MetaWear device",
+        "Contributed to MbientLab’s Android MetaWear SDK (**Java**) to add the step counter and activity detection functionnalities to MetaWear devices using the BMI270 sensor",
+        "Designed a database using **MongoDB Atlas App Services**. Used **GraphQL** for queries on the Web platform and **MongoDB Realm** for the local database on the mobile application"
       ],
       "location": "Montreal, QC"
     },
