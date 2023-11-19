@@ -9,12 +9,13 @@
   "license": "ISC",
   "author": "Simon Tran",
   "scripts": {
-    "build": "resume export resume.pdf",
+    "build": "resume export --theme ./jsonresume-theme-tran resume.pdf",
     "clean": "rm -rf public resume.pdf",
-    "start": "resume serve",
+    "start": "resume serve --theme ./jsonresume-theme-tran",
     "validate": "resume validate"
   },
   "dependencies": {
+    "jsonresume-theme-tran": "file:jsonresume-theme-tran",
     "resume-cli": "^3.0.8"
   }
 }
