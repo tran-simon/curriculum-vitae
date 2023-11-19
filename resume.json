@@ -1,0 +1,460 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Simon Tran",
+    "label": "Full-Stack Developer @ Ora Medical - Former SWE Intern @ Google & Amazon",
+    "image": "",
+    "email": "transimon99@gmail.com",
+    "phone": "",
+    "url": "",
+    "summary": "Full-Stack Developer at Ora Medical\nFormer Google Intern (Winter 2022)\nFormer Amazon Intern (Summer 2022)\n\nCV:  https://tran-simon.github.io/resume.pdf\n\nExperience in frontend development (Javascript, React, Angular, nodejs, html/css), backend (Java,  Spring, Express.js) and mobile (Android, Kotlin, ios, React Native)\n\nI know Java/Kotlin, Javascript/Typescript, Rust, C/C++, Python\n\nhttps://github.com/tran-simon",
+    "location": {
+      "countryCode": "US",
+      "address": "Canada"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "transimon99",
+        "url": "https://www.linkedin.com/in/transimon99/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Ora Medical",
+      "position": "Full-stack Developer",
+      "startDate": "2023-05-31",
+      "highlights": [],
+      "summary": "• Developed and maintained robust software solutions for medical applications, following standard operating procedures and complying with various regulatory systems\n• Developed a Web platform in React used by medical professionals for remote monitoring of patients with walking disabilities. The platform enhances patient care by enabling personalized treatment plans and timely interventions, while requiring fewer resources\n• Worked on a mobile application in React Native used by the patients. The app communicates with a MetaWear sensor worn by the individual, collecting a wide range of data related to their walking patterns\n• Wrote custom React Native modules in Kotlin (Android) and Swift (iOS) to properly initialize the MetaWear device\n• Contributed to MbientLab’s Android MetaWear SDK (Java) to add the step counter and activity detection functionnalities to MetaWear devices using the BMI270 sensor\n• Designed a database using MongoDB Atlas App Services. Used GraphQL for queries on the Web platform and MongoDB Realm for the local database on the mobile application",
+      "url": "https://www.linkedin.com/company/oramedical/",
+      "location": "Montreal, Quebec, Canada"
+    },
+    {
+      "name": "Amazon",
+      "position": "Software Developer Intern",
+      "startDate": "2022-05-31",
+      "endDate": "2022-08-31",
+      "highlights": [],
+      "summary": "I researched, designed and implemented a new feature for Amazon's customer service web application.\n\n• Migrated the gift card locking feature to Amazon’s new customer service internal platform in order to reduce dependency on legacy code as part of the ongoing platform upgrade\n• Designed and implemented a GraphQL schema to integrate the new user interface (React) with the gift card locking functionality. Wrote Java code using a proprietary Amazon framework to handle the gift card locking requests\n• Played a key role in the ongoing platform upgrade by reducing technical debt and ensuring compatibility with modern technologies.\n• Created a design document explaining the different requirements and the steps to complete the project",
+      "url": "https://www.linkedin.com/company/amazon/",
+      "location": "Toronto, Ontario, Canada"
+    },
+    {
+      "name": "Google",
+      "position": "Software Developer Intern",
+      "startDate": "2022-01-31",
+      "endDate": "2022-04-30",
+      "highlights": [],
+      "summary": "• Contributed to Fuchsia, Google’s open-source operating system\n• Developed Rust-based \"ffx plugins\", command-line tools used for debugging Fuchsia components\n• Improved the functionality and readability of existing commands by refactoring their code and \noutput format. This made them simpler to use by other developers and enhanced their utility.\n• Created new debugging commands in Rust to analyze running Fuchsia components\n• Implemented in Rust a feature that generates Rust or C++ code to conditionally compile the inspect code in Fuchsia components, allowing them to share information about their health and configuration\n\nhttps://github.com/tran-simon/fuchsia/commits?author=tran-simon\nhttps://fuchsia-review.googlesource.com/q/owner:transimon@google.com+status:merged",
+      "url": "https://www.linkedin.com/company/google/"
+    },
+    {
+      "name": "Vélocité Conseil",
+      "position": "Fullstack Developer",
+      "startDate": "2020-09-30",
+      "endDate": "2022-01-31",
+      "highlights": [],
+      "summary": "• Led the development of Hazy Brewing app, a React (TypeScript) web application for amateur and professional brewers\n• Created a recipe creation and management system, an inventory manager and a brew scheduler to facilitate beer production\n• Implemented support for multiple authenticated users within organizations using Firebase Authentication, enabling collaborative brewing\n• Built a system to import beer recipes from other brewing softwares using a custom algorithm for ingredient matching\n• Integrated the Stripe payment gateway for secure and reliable in-app purchases\n\nI spent a few months working with a fellow dev, but for the most part I was the sole developer on the project. I was in charge of making all the important architectural and design decisions. This experience gave me confidence and decision making skills. I've also greatly improved my communication skills, since I often had to propose new ideas, discuss possible implementations and even argue with the project manager when I thought some decisions were wrong.\n\nThanks to this experience, I'm now able to create by myself a medium-sized React application. I can handle most parts of a fullstack project including the UI design, database structure, the actual coding in typescript, the deployment in Firebase, the security, accessibility and many more.",
+      "url": "",
+      "location": "Montréal"
+    },
+    {
+      "name": "National Bank of Canada",
+      "position": "Full stack intern developer: Digital Studio",
+      "startDate": "2020-05-31",
+      "endDate": "2020-08-31",
+      "highlights": [],
+      "summary": "Backend developer in Java\nFrontend developer using React, javascript\nMobile developer using ReactNative (ios and android)\n\nFor this second internship, I worked on the web interface of the bank. I primarily worked on the backend where I had to migrate multiple microservices from springboot 1 to 2.\n\nI also worked on the frontend of the same application in React. I fixed multiple bugs and implemented some features. I worked with GraphQL in order to link the frontend with the multiple microservices.\n\nI worked on the bank's new mobile application in ReactNative.",
+      "url": "https://www.linkedin.com/company/banquenationaleducanada/",
+      "location": "Montreal, Quebec, Canada"
+    },
+    {
+      "name": "National Bank of Canada",
+      "position": "Backend/Frontend intern developer: Wealth Management",
+      "startDate": "2019-05-31",
+      "endDate": "2020-05-31",
+      "highlights": [],
+      "summary": "Backend programming in Java with Spring, Springboot, CXF, swagger.\nFrontend programming in Javascript with React, NodeJS, html/css\n\nI learned to use Atlassian tools (confluence, jira, bitbucket), jenkins, SonarQube\n\nI wrote unit tests for my work using JUnit, Mockito, jest\n\nI learned to work in an agile environment.\n\nFor my first internship as a Computer Engineering student, I worked on a project for the NBC. I started working on the backend, mainly implementing features, fixing bugs and writing unit tests. I learned to work on a Java Spring project.\n\nAt the end of my internship in august,  I was offered to work part time. I learned Javascript, React, HTML/CSS so I could start working on the frontend.",
+      "url": "https://www.linkedin.com/company/banquenationaleducanada/",
+      "location": "Montreal, Canada Area"
+    },
+    {
+      "name": "National Bank of Canada",
+      "position": "Intern Developer",
+      "startDate": "2018-07-31",
+      "endDate": "2018-08-31",
+      "highlights": [],
+      "summary": "Internship where I learned to develop applications in Cobol using IBM Personnal Communications and z/OS Connect. I also developed APIs in IMS Enterprise Suite Explorer and I've worked using Agile software development.",
+      "url": "https://www.linkedin.com/company/banquenationaleducanada/",
+      "location": "Montreal, Canada Area"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Polytechnique Montreal",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor of Engineering - BE",
+      "startDate": "2018-09-30",
+      "endDate": "2023-05-31",
+      "score": "3.49",
+      "courses": [
+        "INF3710 - Fichiers et Bases de données",
+        "INF3610 - Système Embarqués",
+        "INF3405 - Réseaux Informatiques",
+        "INF4420A - Sécurité Informatique",
+        "LOG8235 - Agents Intelligents pour Jeux Vidéos",
+        "INF2610 - Noyau d'un Système d'Exploitation",
+        "INF2705 - Infographie",
+        "INF2010 - Structures de Données et Algorithmes"
+      ]
+    },
+    {
+      "institution": "College de Maisonneuve",
+      "area": "Mathematics and Computer Science",
+      "studyType": "DEC",
+      "startDate": "2016-12-31",
+      "endDate": "2018-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Collège Saint-Sacrement",
+      "area": "",
+      "studyType": "Secondary Diploma",
+      "startDate": "2011-12-31",
+      "endDate": "2016-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "React.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TypeScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Rust (Programming Language)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Kotlin",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Arch Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "docker",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Office",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Jest",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Operating Systems",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "mac os",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Spring Boot",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Angular Material",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cloud Computing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C++",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Windows",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Android",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Material-UI",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "mongodb realm",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Spring Framework",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "AngularJS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "GraphQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "COBOL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Firebase",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Full-Stack Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Swift",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microservices",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Android Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JUnit",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Databases",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cascading Style Sheets (CSS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Xcode",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "React Native",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python (Programming Language)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Android Studio",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Jenkins",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "iOS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "docker compose",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Next.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Back-End Web Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C (Programming Language)",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "fluency": "Native Speaker",
+      "language": "English"
+    },
+    {
+      "fluency": "Native Speaker",
+      "language": "French"
+    },
+    {
+      "fluency": "Elementary",
+      "language": "Spanish"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "Jami-Web",
+      "startDate": "2022-08-31",
+      "summary": "• Final project at Polytechnique in association with Savoir-faire Linux\n• Creation of the web version of Jami: An open-source distributed video conference application\n• Frontend in Typescript with React\n• Implementation of WebRTC for peer-to-peer audiovisual communication\n• Backend with Express.js in Typescript. Authentication management, REST API and WebSocket connection with the client\n• CI using Jenkins",
+      "url": "https://github.com/tran-simon/jami-web",
+      "endDate": "2022-12-31"
+    },
+    {
+      "name": "Pretty-charts",
+      "startDate": "2022-04-30",
+      "summary": "A React web application to easily create beautiful charts using ApexCharts.js\n\nDemo: https://prettycharts.app/",
+      "url": "https://github.com/tran-simon/pretty-charts",
+      "endDate": "2022-04-30"
+    },
+    {
+      "name": "INF3995 - Crazyflies exploration",
+      "startDate": "2021-01-31",
+      "summary": "Year 3 project at Polytechnique Montreal\nDemo: https://inf3995-100.web.app/\nhttps://www.youtube.com/playlist?list=PLNKju2GUDfnATQSsO9unefKDlfddMZ0kg\n\nDrone exploration using small quadrocopters \"Crazyflies\". \nSimulation in Argos3\nBackend in python (flask)\nFrontend in React with Typescript",
+      "url": "https://github.com/tran-simon/inf3995-main",
+      "endDate": "2021-04-30"
+    },
+    {
+      "name": "Babel Reader",
+      "startDate": "2020-05-31",
+      "summary": "Ebook reader webapp with one-click translation.\n\nDemo: https://babel-reader-web.web.app/\nClick a sentence to see the translation",
+      "url": "https://github.com/Babel-Reader/babel-reader-web",
+      "endDate": "2020-05-31"
+    },
+    {
+      "name": "Polydessin",
+      "startDate": "2020-01-31",
+      "summary": "Year 2 Project at Polytechnique Montreal.\n\nDemo: https://log2990-104.web.app/\n\nSVG Drawing app made in Angular using Angular Material. \n\nDeployed in Firebase.",
+      "url": "https://github.com/tran-simon/LOG2990-104",
+      "endDate": "2020-05-31"
+    },
+    {
+      "name": "Montreal Patrol",
+      "startDate": "2019-01-31",
+      "summary": "Android app developed during \"Hackatown 2019\".\n\nUsing the google map API, the app allows the user to upload a picture and a description of an infrastructure that needs fixing (Pothole, non-working light...) in Montreal. Every other user is then able to view that information.\n\n",
+      "url": "https://devpost.com/software/hackatown-ba7z0v",
+      "endDate": "2019-01-31"
+    },
+    {
+      "name": "Mass Spectrometer",
+      "startDate": "2018-01-31",
+      "summary": "End of CEGEP project at College de Maisonneuve.\n\nSimulation of a mass spectrometer in Java",
+      "url": "https://github.com/tran-simon/Spectrometre",
+      "endDate": "2018-05-31"
+    },
+    {
+      "name": "Math by Heart",
+      "startDate": "2017-05-31",
+      "summary": "Open-source android application to learn integration and derivation formulas. The code is available on github:   https://github.com/ThePotatoGod99/MathByHeart",
+      "url": "https://play.google.com/store/apps/details?id=com.games.potato.mathbyheart&hl=en",
+      "endDate": "2017-05-31"
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
