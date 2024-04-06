@@ -10,12 +10,25 @@
   "author": "Simon Tran",
   "scripts": {
     "build": "resume export --theme ./jsonresume-theme-tran resume.pdf",
+    "build:clean": "npm run clean && npm run build",
     "clean": "rm -rf public resume.pdf",
     "start": "resume serve --theme ./jsonresume-theme-tran",
-    "validate": "resume validate"
+    "validate": "resume validate",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepare": "bash -c \"if [ -e '.git' ]; then git config core.hooksPath .hooks; fi\""
   },
   "dependencies": {
     "jsonresume-theme-tran": "file:jsonresume-theme-tran",
     "resume-cli": "^3.0.8"
+  },
+  "devDependencies": {
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5"
+  },
+  "lint-staged": {
+    "*.{js,hbs,css,md,json}": [
+      "prettier --write"
+    ]
   }
 }
