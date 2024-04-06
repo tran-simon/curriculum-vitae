@@ -1,0 +1,635 @@
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, minimal-ui"
+    />
+
+    <title>Simon Tran</title>
+
+    <script
+      src="https://kit.fontawesome.com/a4d4c4635d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      body {
+  background: #fff;
+  font:
+    14px "Computer Modern",
+    "Latin Modern",
+    "TeX Gyre Pagella",
+    serif;
+  line-height: 1.2;
+  margin: 1em;
+}
+
+.fas,
+.fa-brands {
+  width: 1em;
+}
+
+.link {
+  display: flex;
+  align-items: baseline;
+  gap: 0.25em;
+  color: #000;
+  text-decoration: none;
+}
+
+a {
+  font-style: italic;
+  font-family: "Computer Modern", "Latin Modern Math", "TeX Gyre Pagella", serif;
+}
+
+em {
+  color: #999;
+}
+
+p {
+  line-height: 1.4;
+}
+
+ul {
+  margin: 0;
+  padding-inline-start: 2em;
+}
+
+section {
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-weight: 300;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.25em;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1em;
+  max-width: 70%;
+  display: inline-block;
+}
+
+h4 {
+  display: inline-block;
+  font-weight: normal;
+  margin: 0;
+}
+
+.divided {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right {
+  text-align: right;
+}
+
+header {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+header ul {
+  list-style: none;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: rgba(0, 0, 0, 0.5) !important;
+  font-style: italic;
+  font-size: small;
+}
+
+footer a {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+section {
+  padding-top: 0.25em;
+  border-top: 3px solid #000;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75em;
+}
+
+section .item {
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.125em;
+}
+
+.summary {
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.subtitle {
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.inline {
+  display: flex;
+  gap: 1em;
+}
+
+section .item p {
+  margin: 0;
+}
+
+#resume {
+  position: relative;
+  height: fit-content;
+  margin: 0 auto;
+  max-width: 816px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.link-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.inline-list-container {
+  line-height: 1;
+
+  padding-left: 2em;
+  text-indent: -1em;
+}
+
+.inline-list {
+  display: inline;
+  list-style: none;
+  margin-block: 0;
+  margin-inline: 0;
+  padding-inline: 0;
+}
+
+.inline-list li {
+  display: inline;
+}
+
+.inline-list li:not(:last-child):after {
+  content: ",";
+}
+
+    </style>
+
+  </head>
+  <body>
+    <div id="resume">
+
+        <header class="divided">
+          <div>
+            <h1>Simon Tran</h1>
+            <a class="link" href="mailto:transimon99@gmail.com">
+              <i class="fas fa-envelope"></i>
+              transimon99@gmail.com
+            </a>
+          </div>
+
+          <ul>
+              <li>
+                <a class="link" href="https://www.linkedin.com/in/transimon99">
+                  <i class="fa-brands fa-linkedin"></i>
+                  linkedin.com/in/transimon99</a>
+              </li>
+              <li>
+                <a class="link" href="https://www.github.com/tran-simon">
+                  <i class="fa-brands fa-github"></i>
+                  github.com/tran-simon</a>
+              </li>
+          </ul>
+        </header>
+
+        <h2>Experience</h2>
+        <section id="work">
+            <div class="item">
+              <div>
+                <div class="divided">
+                  <div>
+                    <h3>
+                      Ora Medical
+                    </h3>
+
+                    |
+
+                    <h4>
+                      Lead Full-stack Developer
+                    </h4>
+                  </div>
+
+                  <span class="subtitle">
+                    May 2023 – Current
+                  </span>
+                </div>
+
+                <div class="divided" id="position">
+                  <span class="summary">
+                    React, React Native, TypeScript, Kotlin, Java, GraphQL, Realm, Atlas App Services
+                  </span>
+                  <span class="subtitle">
+                    Montreal, QC
+                  </span>
+                </div>
+              </div>
+
+                <ul class="item-section highlights">
+                    <li><p>Developed a Web platform in <strong>React</strong> used by medical professionals for remote monitoring of patients with walking disabilities. The platform enhances patient care by enabling personalized treatment plans and timely interventions, while requiring fewer resources</p>
+</li>
+                    <li><p>Developed and maintained robust software solutions for medical applications, following standard operating procedures and complying with various regulatory systems</p>
+</li>
+                    <li><p>Worked on a mobile application in <strong>React Native</strong> used by the patients. The app communicates with a MetaWear sensor worn by the individual, collecting a wide range of data related to their walking patterns</p>
+</li>
+                    <li><p>Wrote custom <strong>React Native</strong> modules in <strong>Kotlin</strong> for the <strong>Android</strong> version to properly initialize the MetaWear device</p>
+</li>
+                    <li><p><a href="https://github.com/mbientlab/MetaWear-SDK-Android/pull/30/files">Contributed</a> to MbientLab’s Android MetaWear SDK (<strong>Java</strong>) to add the step counter and activity detection functionnalities to MetaWear devices</p>
+</li>
+                    <li><p>Designed a database using <strong>MongoDB Atlas App Services</strong>. Used <strong>GraphQL</strong> for queries on the Web platform and <strong>MongoDB Realm</strong> for the local database on the mobile application</p>
+</li>
+                </ul>
+
+            </div>
+            <div class="item">
+              <div>
+                <div class="divided">
+                  <div>
+                    <h3>
+                      Amazon
+                    </h3>
+
+                    |
+
+                    <h4>
+                      Software Developer Intern
+                    </h4>
+                  </div>
+
+                  <span class="subtitle">
+                    May 2022 – Aug 2022
+                  </span>
+                </div>
+
+                <div class="divided" id="position">
+                  <span class="summary">
+                    React, Java, TypeScript, GraphQL
+                  </span>
+                  <span class="subtitle">
+                    Toronto, ON
+                  </span>
+                </div>
+              </div>
+
+                <ul class="item-section highlights">
+                    <li><p>Migrated the gift card locking feature to Amazon’s new customer service internal platform in order to reduce dependency on legacy code as part of the ongoing platform upgrade</p>
+</li>
+                    <li><p>Designed and implemented a <strong>GraphQL</strong> schema to integrate the new user interface (<strong>React</strong>) with the gift card locking functionality</p>
+</li>
+                    <li><p>Wrote <strong>Java</strong> code using a proprietary Amazon framework to handle the gift card locking requests</p>
+</li>
+                    <li><p>Played a key role in the ongoing platform upgrade by reducing technical debt and ensuring compatibility with modern technologies.</p>
+</li>
+                    <li><p>Created a design document explaining the different requirements and the steps to complete the project </p>
+</li>
+                </ul>
+
+            </div>
+            <div class="item">
+              <div>
+                <div class="divided">
+                  <div>
+                    <h3>
+                      Google
+                    </h3>
+
+                    |
+
+                    <h4>
+                      Software Developer Intern
+                    </h4>
+                  </div>
+
+                  <span class="subtitle">
+                    Jan 2022 – Apr 2022
+                  </span>
+                </div>
+
+                <div class="divided" id="position">
+                  <span class="summary">
+                    Rust, C++, Fuchsia
+                  </span>
+                  <span class="subtitle">
+                    Remote
+                  </span>
+                </div>
+              </div>
+
+                <ul class="item-section highlights">
+                    <li><p><a href="https://fuchsia-review.googlesource.com/q/owner:transimon@google.com+status:merged">Contributed</a> to Fuchsia, Google’s open-source operating system</p>
+</li>
+                    <li><p>Developed <strong>Rust</strong>-based &quot;ffx plugins&quot;, command-line tools used for debugging Fuchsia components</p>
+</li>
+                    <li><p>Improved the functionality and readability of existing commands by refactoring their code and output format. This made them simpler to use by other developers and enhanced their utility.</p>
+</li>
+                    <li><p>Created new debugging commands in <strong>Rust</strong> to analyze running Fuchsia components</p>
+</li>
+                    <li><p>Implemented in <strong>Rust</strong> a feature that generates <strong>Rust</strong> or <strong>C++</strong> code to conditionally compile the inspect code in Fuchsia components, allowing them to share information about their health and configuration</p>
+</li>
+                </ul>
+
+                <div class="item-section">
+                    <a class="link" href="https://www.github.com/tran-simon/fuchsia/commits?author=tran-simon">
+                      <i class="fa-brands fa-github"></i>
+                      github.com/tran-simon/fuchsia/commits?author=tran-simon</a>
+                    <a class="link" href="https://fuchsia-review.googlesource.com/q/owner:transimon@google.com+status:merged">
+                      <i class="fa-solid fa-code-branch"></i>
+                      fuchsia-review.googlesource.com/q/owner:transimon@google.com+status:merged</a>
+                </div>
+            </div>
+            <div class="item">
+              <div>
+                <div class="divided">
+                  <div>
+                    <h3>
+                      Vélocité Conseil
+                    </h3>
+
+                    |
+
+                    <h4>
+                      Fullstack Developer
+                    </h4>
+                  </div>
+
+                  <span class="subtitle">
+                    Sep 2020 – Jan 2022
+                  </span>
+                </div>
+
+                <div class="divided" id="position">
+                  <span class="summary">
+                    React, TypeScript, Firebase, Stripe
+                  </span>
+                  <span class="subtitle">
+                    Montréal, QC
+                  </span>
+                </div>
+              </div>
+
+                <ul class="item-section highlights">
+                    <li><p>Led the development of Hazy Brewing app, a <strong>React</strong> (<strong>TypeScript</strong>) web application for amateur and professional brewers</p>
+</li>
+                    <li><p>Created a recipe creation and management system, an inventory manager and a brew scheduler to facilitate beer production</p>
+</li>
+                    <li><p>Implemented support for multiple authenticated users within organizations using <strong>Firebase Authentication</strong>, enabling collaborative brewing</p>
+</li>
+                    <li><p>Built a system to import beer recipes from other brewing softwares using a custom algorithm for ingredient matching</p>
+</li>
+                    <li><p>Integrated the <strong>Stripe</strong> payment gateway for secure and reliable in-app purchases</p>
+</li>
+                </ul>
+
+            </div>
+        </section>
+
+        <h2>Education</h2>
+        <section id="education">
+            <div class="item">
+              <div class="divided">
+                <h3>
+                  Polytechnique Montreal
+                </h3>
+
+                <span class="subtitle">
+                  August 2018 – May 2023
+                </span>
+              </div>
+
+              <h4 class="summary">
+                Bachelor&#x27;s degree in Computer Engineering
+              </h4>
+            </div>
+        </section>
+
+        <h2>Projects</h2>
+        <section id="projects">
+            <div class="item">
+              <div class="item-section">
+                <div class="divided">
+                  <div>
+                    <h3>
+                      Jami-Web
+                    </h3>&nbsp;
+
+                    <span class="summary">
+                      React, TypeScript, WebRTC, Express.js, REST, WebSocket, Docker
+                    </span>
+                  </div>
+
+                  <span class="subtitle">
+                    Aug – Dec 2022
+                  </span>
+                </div>
+              </div>
+
+              <div class="divided">
+                <div>
+                    <p>WebRTC client for Jami, an open-source distributed video conference application</p>
+
+                    <p>Fourth year project at Polytechnique in partnership with <a href="https://savoirfairelinux.com/fr">Savoir-faire Linux</a></p>
+
+                </div>
+
+                <ul class="link-list">
+                  <li>
+                      <a class="link" href="https://www.github.com/tran-simon/jami-web">
+                        <i class="fa-brands fa-github"></i>
+                        github.com/tran-simon/jami-web</a>
+                  </li>
+
+                    <li>
+                      <a class="link" href="https://jami.net">
+                        <i class="fa-solid fa-link"></i>
+                        jami.net</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-section">
+                <div class="divided">
+                  <div>
+                    <h3>
+                      Crazyflie Drone Exploration
+                    </h3>&nbsp;
+
+                    <span class="summary">
+                      C, Python, Flask, React, TypeScript
+                    </span>
+                  </div>
+
+                  <span class="subtitle">
+                    Jan – Apr 2021
+                  </span>
+                </div>
+              </div>
+
+              <div class="divided">
+                <div>
+                    <p>Low-level artificial intelligence for an exploring flying drone</p>
+
+                    <p>Third year project at Polytechnique</p>
+
+                </div>
+
+                <ul class="link-list">
+                  <li>
+                      <a class="link" href="https://www.github.com/tran-simon/inf3995-main">
+                        <i class="fa-brands fa-github"></i>
+                        github.com/tran-simon/inf3995-main</a>
+                  </li>
+
+                    <li>
+                      <a class="link" href="https://inf3995-100.web.app">
+                        <i class="fa-solid fa-link"></i>
+                        inf3995-100.web.app</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+        </section>
+
+        <h2>Technical Skills</h2>
+        <section id="skills">
+            <div class="item">
+              <div class="inline-list-container">
+                <h3>
+                  Programming Languages:
+                </h3>
+
+                  <ul class="inline-list">
+                      <li>JavaScript</li>
+                      <li>TypeScript</li>
+                      <li>Java</li>
+                      <li>Kotlin</li>
+                      <li>Rust</li>
+                      <li>Python</li>
+                      <li>C</li>
+                      <li>C++</li>
+                      <li>HTML/CSS</li>
+                      <li>SQL</li>
+                  </ul>
+              </div>
+            </div>
+            <div class="item">
+              <div class="inline-list-container">
+                <h3>
+                  Frameworks and Libraries:
+                </h3>
+
+                  <ul class="inline-list">
+                      <li>React</li>
+                      <li>Angular</li>
+                      <li>Node.js</li>
+                      <li>Express.js</li>
+                      <li>React Native (Android, iOS, Web</li>
+                      <li>Android SDK (Java, Kotlin)</li>
+                      <li>LibGDX</li>
+                      <li>Flask</li>
+                      <li>Spring/Spring Boot</li>
+                      <li>MongoDB Realm</li>
+                  </ul>
+              </div>
+            </div>
+            <div class="item">
+              <div class="inline-list-container">
+                <h3>
+                  Cloud Technologies:
+                </h3>
+
+                  <ul class="inline-list">
+                      <li>AWS</li>
+                      <li>Google Cloud Platform</li>
+                      <li>Firebase</li>
+                      <li>Azure</li>
+                      <li>Docker</li>
+                      <li>docker-compose</li>
+                      <li>MongoDB Atlas App Services</li>
+                  </ul>
+              </div>
+            </div>
+            <div class="item">
+              <div class="inline-list-container">
+                <h3>
+                  Miscellaneous:
+                </h3>
+
+                  <ul class="inline-list">
+                      <li>Linux (Arch)</li>
+                      <li>Git</li>
+                      <li>GitHub/Gitlab/Bitbucket/Gerrit</li>
+                      <li>Jira/Trello</li>
+                      <li>Jenkin</li>
+                  </ul>
+              </div>
+            </div>
+            <div class="item">
+              <div class="inline-list-container">
+                <h3>
+                  Spoken Languages:
+                </h3>
+
+                  <ul class="inline-list">
+                      <li>English</li>
+                      <li>French</li>
+                  </ul>
+              </div>
+            </div>
+        </section>
+
+        <footer>
+          <div>
+            Simon Tran
+            Resume v1.0.0
+
+            built with&nbsp;
+            <a href="https://jsonresume.org/">
+              JSON Resume
+            </a>
+          </div>
+
+            <a class="link" href="https://github.com/tran-simon/curriculum-vitae">
+              <i class="fa-brands fa-github"></i>
+              github.com/tran-simon/curriculum-vitae</a>
+
+        </footer>
+    </div>
+  </body>
+</html>

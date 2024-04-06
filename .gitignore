@@ -3,6 +3,3 @@ node_modules/
 # IntelliJ
 .idea/
 *.iml
-
-# Build files
-public/
