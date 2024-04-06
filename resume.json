@@ -5,9 +5,10 @@
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
   },
   "basics": {
+    "version": "1.0.0",
+    "source": "https://github.com/tran-simon/curriculum-vitae",
     "name": "Simon Tran",
     "email": "transimon99@gmail.com",
-    "summary": "",
     "profiles": [
       {
         "network": "linkedin",
@@ -32,7 +33,7 @@
         "Developed and maintained robust software solutions for medical applications, following standard operating procedures and complying with various regulatory systems",
         "Worked on a mobile application in **React Native** used by the patients. The app communicates with a MetaWear sensor worn by the individual, collecting a wide range of data related to their walking patterns",
         "Wrote custom **React Native** modules in **Kotlin** for the **Android** version to properly initialize the MetaWear device",
-        "Contributed to MbientLab’s Android MetaWear SDK (**Java**) to add the step counter and activity detection functionnalities to MetaWear devices using the BMI270 sensor",
+        "[Contributed](https://github.com/mbientlab/MetaWear-SDK-Android/pull/30/files) to MbientLab’s Android MetaWear SDK (**Java**) to add the step counter and activity detection functionnalities to MetaWear devices",
         "Designed a database using **MongoDB Atlas App Services**. Used **GraphQL** for queries on the Web platform and **MongoDB Realm** for the local database on the mobile application"
       ],
       "location": "Montreal, QC"
@@ -42,11 +43,11 @@
       "position": "Software Developer Intern",
       "startDate": "2022-05-16",
       "endDate": "2022-08-19",
-      "summary": "",
+      "summary": "React, Java, TypeScript, GraphQL",
       "highlights": [
         "Migrated the gift card locking feature to Amazon’s new customer service internal platform in order to reduce dependency on legacy code as part of the ongoing platform upgrade",
-        "Designed and implemented a GraphQL schema to integrate the new user interface (React) with the gift card locking functionality",
-        "Wrote Java code using a proprietary Amazon framework to handle the gift card locking requests",
+        "Designed and implemented a **GraphQL** schema to integrate the new user interface (**React**) with the gift card locking functionality",
+        "Wrote **Java** code using a proprietary Amazon framework to handle the gift card locking requests",
         "Played a key role in the ongoing platform upgrade by reducing technical debt and ensuring compatibility with modern technologies.",
         "Created a design document explaining the different requirements and the steps to complete the project "
       ],
@@ -57,29 +58,38 @@
       "position": "Software Developer Intern",
       "startDate": "2022-01-10",
       "endDate": "2022-04-15",
-      "summary": "",
+      "summary": "Rust, C++, Fuchsia",
       "highlights": [
-        "Contributed to Fuchsia, Google’s open-source operating system",
-        "Developed Rust-based \"ffx plugins\", command-line tools used for debugging Fuchsia components",
+        "[Contributed](https://fuchsia-review.googlesource.com/q/owner:transimon@google.com+status:merged) to Fuchsia, Google’s open-source operating system",
+        "Developed **Rust**-based \"ffx plugins\", command-line tools used for debugging Fuchsia components",
         "Improved the functionality and readability of existing commands by refactoring their code and output format. This made them simpler to use by other developers and enhanced their utility.",
-        "Created new debugging commands in Rust to analyze running Fuchsia components",
-        "Implemented in Rust a feature that generates Rust or C++ code to conditionally compile the inspect code in Fuchsia components, allowing them to share information about their health and configuration"
+        "Created new debugging commands in **Rust** to analyze running Fuchsia components",
+        "Implemented in **Rust** a feature that generates **Rust** or **C++** code to conditionally compile the inspect code in Fuchsia components, allowing them to share information about their health and configuration"
       ],
       "location": "Remote",
-      "url": "https://github.com/tran-simon/fuchsia/commits?author=tran-simon"
+      "urls": [
+        {
+          "icon": "fa-brands fa-github",
+          "url": "https://www.github.com/tran-simon/fuchsia/commits?author=tran-simon"
+        },
+        {
+          "icon": "fa-solid fa-code-branch",
+          "url": "https://fuchsia-review.googlesource.com/q/owner:transimon@google.com+status:merged"
+        }
+      ]
     },
     {
       "name": "Vélocité Conseil",
       "position": "Fullstack Developer",
       "startDate": "2020-09-30",
       "endDate": "2022-01-31",
-      "summary": "",
+      "summary": "React, TypeScript, Firebase, Stripe",
       "highlights": [
-        "Led the development of Hazy Brewing app, a React (TypeScript) web application for amateur and professional brewers",
+        "Led the development of Hazy Brewing app, a **React** (**TypeScript**) web application for amateur and professional brewers",
         "Created a recipe creation and management system, an inventory manager and a brew scheduler to facilitate beer production",
-        "Implemented support for multiple authenticated users within organizations using Firebase Authentication, enabling collaborative brewing",
+        "Implemented support for multiple authenticated users within organizations using **Firebase Authentication**, enabling collaborative brewing",
         "Built a system to import beer recipes from other brewing softwares using a custom algorithm for ingredient matching",
-        "Integrated the Stripe payment gateway for secure and reliable in-app purchases"
+        "Integrated the **Stripe** payment gateway for secure and reliable in-app purchases"
       ],
       "location": "Montréal, QC",
       "url": "https://hazybrewing.web.app/"
@@ -88,13 +98,11 @@
   "education": [
     {
       "institution": "Polytechnique Montreal",
-      "area": "Computer Engineering",
-      "studyType": "Bachelor of Engineering - BE",
+      "area": "Bachelor's degree in Computer Engineering",
       "startDate": "2018-08-27",
       "endDate": "2023-05-05"
     }
   ],
-  "skills": [],
   "languages": [
     {
       "fluency": "Fluent",
@@ -114,25 +122,83 @@
       "name": "Jami-Web",
       "startDate": "2022-08-22",
       "endDate": "2022-12-08",
-      "description": "Created the web version of Jami, an open-source distributed video conference application",
+      "description": "React, TypeScript, WebRTC, Express.js, REST, WebSocket, Docker",
       "highlights": [
-        "Main Web application in React (TypeScript) using WebRTC with a REST and WebSocket backend using Express.js",
-        "My final year project at Polytechnique in partnership with Savoir-faire Linux"
+        "WebRTC client for Jami, an open-source distributed video conference application",
+        "Fourth year project at Polytechnique in partnership with [Savoir-faire Linux](https://savoirfairelinux.com/fr)"
       ],
-      "url": "https://github.com/tran-simon/jami-web"
+      "url": "https://www.github.com/tran-simon/jami-web",
+      "demo": "https://jami.net"
     },
     {
       "name": "Crazyflie Drone Exploration",
       "startDate": "2021-01-11",
       "endDate": "2021-04-21",
-      "description": "Autonomous flying drone firmware in C",
+      "description": "C, Python, Flask, React, TypeScript",
       "highlights": [
-        "Implemented an artificial intelligence for an exploring flying drone",
-        "Created a base station server using Flask (Python)",
-        "Web UI in React (Typescript)",
+        "Low-level artificial intelligence for an exploring flying drone",
         "Third year project at Polytechnique"
       ],
-      "url": "https://github.com/tran-simon/inf3995-main"
+      "url": "https://www.github.com/tran-simon/inf3995-main",
+      "demo": "https://inf3995-100.web.app"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "JavaScript",
+        "TypeScript",
+        "Java",
+        "Kotlin",
+        "Rust",
+        "Python",
+        "C",
+        "C++",
+        "HTML/CSS",
+        "SQL"
+      ]
+    },
+    {
+      "name": "Frameworks and Libraries",
+      "keywords": [
+        "React",
+        "Angular",
+        "Node.js",
+        "Express.js",
+        "React Native (Android, iOS, Web",
+        "Android SDK (Java, Kotlin)",
+        "LibGDX",
+        "Flask",
+        "Spring/Spring Boot",
+        "MongoDB Realm"
+      ]
+    },
+    {
+      "name": "Cloud Technologies",
+      "keywords": [
+        "AWS",
+        "Google Cloud Platform",
+        "Firebase",
+        "Azure",
+        "Docker",
+        "docker-compose",
+        "MongoDB Atlas App Services"
+      ]
+    },
+    {
+      "name": "Miscellaneous",
+      "keywords": [
+        "Linux (Arch)",
+        "Git",
+        "GitHub/Gitlab/Bitbucket/Gerrit",
+        "Jira/Trello",
+        "Jenkin"
+      ]
+    },
+    {
+      "name": "Spoken Languages",
+      "keywords": ["English", "French"]
     }
   ]
 }

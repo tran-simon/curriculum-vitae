@@ -1,4 +1,4 @@
-# Simon Tran Resume
+# [Simon Tran Resume](./resume.pdf)
 
 ## Usage
 

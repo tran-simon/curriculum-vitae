@@ -13,6 +13,7 @@
     "build:clean": "npm run clean && npm run build",
     "clean": "rm -rf public resume.pdf",
     "start": "resume serve --theme ./jsonresume-theme-tran",
+    "watch": "nodemon -e js,hbs,css,json",
     "validate": "resume validate",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
@@ -24,6 +25,7 @@
   },
   "devDependencies": {
     "lint-staged": "^15.2.2",
+    "nodemon": "^3.1.0",
     "prettier": "^3.2.5"
   },
   "lint-staged": {
